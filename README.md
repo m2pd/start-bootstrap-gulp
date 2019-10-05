@@ -1,6 +1,7 @@
 "# start-bootstrap-gulp" 
 
 ## **Use**
+`gulp`
 #### directory structure
 |- app/
 * |- css/
@@ -17,6 +18,10 @@
 |- node_modules/
 
 |- package.json
+
+
+### 0. Load Packet
+`npm init`
 
 ### 1. Install Gulp in Gobal ( just 1 time for Destop )
 `npm install -g gulp gulp-cli`

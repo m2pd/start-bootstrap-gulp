@@ -1,0 +1,52 @@
+.radio.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.button-footer{
+    display: flex;
+    justify-content:space-between;
+}
+.head-text{
+    font-weight: 500;
+    padding: 20px;
+    background: #79a2ff36;
+}
+.color-gray{
+    color: #bf601c;
+}
+.color-red{
+    color:#f31f1f;
+}
+.head-text ul{
+    padding-left: 20px
+}
+.mb-20{
+    margin-bottom: 20px
+}
+.mb-50{
+    margin-bottom: 50px
+}
+.text-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    color: green;
+}
+i.fa.fa-life-ring::before{
+    font-size: 26px ;
+    margin-left: 10px
+}
+
+@media (max-width:1024px){
+    .content-row-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .radio.flex-column{
+        margin-top:-10px !important;
+    }
+    .content-four.mb-50{
+        margin-bottom: 0px !important;
+    }
+}

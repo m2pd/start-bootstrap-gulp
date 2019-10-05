@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/scss/style.scss">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../../../dist/assets/css/style.css">
+    <link rel="stylesheet" href="support.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript" src="http://js.nicedit.com/nicEdit-latest.js"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+        bkLib.onDomLoaded(function () { nicEditors.allTextAreas() });
+              //]]>
+    </script>
+    <script type="text/javascript">
+        bkLib.onDomLoaded(function () { nicEditors.allTextAreas() }); // convert all text areas to rich text editor on that page
+
+        bkLib.onDomLoaded(function () {
+            new nicEditor().panelInstance('area1');
+        }); // convert text area with id area1 to rich text editor.
+
+        bkLib.onDomLoaded(function () {
+            new nicEditor({ fullPanel: true }).panelInstance('area2');
+        }); // convert text area with id area2 to rich text editor with full panel.
+    </script>
+    <div id="suport">
+    <header>
+        <div class="text-head">
+            <i class="fa fa-life-ring" aria-hidden="true" style="font-size: 20px"></i>
+            <h3 class="d-inline">Yêu cầu hỗ trợ </h3>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 head-text hidden-xs mb-20">
+                    <p class="color-gray">
+                        <b><u>Thông báo:</u></b> Hiện tại Mắt Bão có tích hợp một số loại
+                        <b>Yêu cầu cao cấp</b>
+                        (tức yêu cầu ưu tiên xử lý trước, giải pháp mở rộng và có tính phí)
+                        nhằm đáp ứng nhu cầu cao hơn về <b>thời gian </b>và<b> giải pháp kỹ thuật</b>
+                        cho khách hàng có nhu cầu.Không nhất thiết qui khách phải chọn loại
+                        <b>Yêu cầu cao cấp</b>.
+                        Yêu cầu hỗ trợ kỹ thuật cao cấp chỉ áp dụng đối với các vấn đề về xử lý kĩ thuật
+                        và sẽ được ưu tiên xử lý
+                    </p>
+                    <p>
+
+                        <strong>Một số lưu ý cần thiết trước khi gửi yêu cầu</strong>
+                        <ul>
+                            <li>
+                                Quý khách có thể tải về máy tính và cài đặt
+                                <b>kết nối máy tính từ xa là UltraView hoặc Anydesk</b>
+                                trước khi gửi Yêu cầu Hổ trợ kỹ thuật vì một số trường hợp cần thiết,
+                                kỹ thuật Mắt Bão cần kết nối đến máy tính của Quý khách để kiểm tra nguyên nhân
+                                và khắc phục lỗi. Xin tải về <a href="https://ultraviewer.net/vi/download.html"
+                                    target="_blank">tại đây</a>
+                            </li>
+                            <li>
+                                Thư viện hướng dẫn sử dụng dịch vụ Mắt Bão có thể quý khách đang cần: <a
+                                    href="https://wiki.matbao.net" target="_blank">wiki.matbao.net</a>
+                            </li>
+                        </ul>
+                    </p>
+                    <h4 class="color-red">
+                        <b>
+                            Vui lòng cung cấp số điện thoại trong nội dung Ticket để kỹ thuật Mắt bão có thể liên hệ
+                            phối hợp xử lý yêu cầu cho quý khách được thuận tiện.Cảm ơn quý khách hợp tác
+                        </b>
+                    </h4>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-one">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <p>Dịch vụ<span class="color-red">*</span></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                            <div class="form-group">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Dịch vụ 1</option>
+                                    <option>Dịch vụ 2</option>
+                                    <option>Dịch vụ 3</option>
+                                    <option>Dịch vụ 4</option>
+                                    <option>Dịch vụ 5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-two">
+                    <div class="row ">
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 ">
+                                    <div class="radio flex-column">
+                                        <label>
+                                            <input type="radio" name="radio-value" id="input" value=""
+                                                checked="checked">
+                                            Hổ trợ kỹ thuật
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="radio-value" id="input" value="">
+                                            Hổ trợ tư vấn đăng ký mới dịch vụ
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="radio-value" id="input" value="">
+                                            Hổ trợ các vấn đề về đơn hàng thanh toán Online
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="radio-value" id="input" value="">
+                                            Hổ trợ các vấn đề cho khách hàng là Đại lý
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="radio-value" id="input" value="">
+                                            Than phiền -Góp ý: (Không xử lý tức thời vấn đề kỹ thuật)
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="radio flex-column">
+                                        <label>
+                                            <input type="radio" name="radio-value" id="input" value=""
+                                                checked="checked">
+                                            Hổ trợ dịch vụ hóa đơn điện tử
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="radio-value" id="input" value="">
+                                            Hổ trợ tư vấn gia hạn dịch vụ
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="radio-value" id="input" value="">
+                                            Hổ trợ thay đổi Thông tin - Hồ sơ - Hợp đồng
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="radio-value" id="input" value="">
+                                            Hổ trợ chuyên sâu về nghiệp vụ kế toán
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-three mb-20">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
+                            <p>Tiêu đề<span class="color-red">*</span></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                            <input type="text" name="" id="input" class="form-control" value="" required="required"
+                                pattern="" title="">
+                        </div>
+                    </div>
+                </div>
+                <div class="content-four mb-50">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <p>Nội dung<span class="color-red">*</span></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                            <div id="sample">
+                                <textarea name="area2" id="area2" style="width:100%;height:200px;">
+                                    Nhập nội dung
+                                </textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-five mb-20">
+                    <div class="row">
+                        <hr>
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                            <p>Đính kèm<span class="color-red">*</span></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                            <div class="input-group mb-3">
+
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="inputGroupFile01">
+                                    <p class="custom-file-label" for="inputGroupFile01">Hổ trợ định dạng : JPG,
+                                        JPGE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-footer mb-50">
+                    <button type="button" class="btn btn-danger">Hủy bỏ</button>
+                    <button type="button" class="btn btn-success">Gửi yêu cầu</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
